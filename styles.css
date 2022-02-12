@@ -67,10 +67,10 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #ad974f;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -159,6 +159,9 @@ a.linkedin {
 }
 a.github {
   background-image: url(images/github.svg);
+}
+a.tap {
+  background-image: url(images/tap-social.png);
 }
 a.social:hover {
   opacity: 1;
